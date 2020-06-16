@@ -1,0 +1,5 @@
+[default]
+entity = juanchoalric
+project = boston-dataset
+base_url = https://api.wandb.ai
+
