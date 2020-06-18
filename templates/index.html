@@ -8,6 +8,7 @@
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   
 </head>
 
@@ -17,9 +18,9 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="rm" placeholder="Average number of rooms" required="required" />
-        <input type="text" name="lstat" placeholder="Percentage of 'lower class' citizents" required="required" />
-		<input type="text" name="ptratio" placeholder="Ratio of students to teachers" required="required" />
+    	<input type="text" name="mr" placeholder="Average rooms:" required="required" />
+        <input type="text" name="lstats" placeholder="Porcentage of 'lower class'" required="required" />
+		<input type="text" name="ptratio" placeholder="Ratio of students to profesors" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
