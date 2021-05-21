@@ -192,7 +192,7 @@ subprocess32==3.5.4
 supervisor==4.0.2
 TatSu==4.4.0
 tensorboard==2.1.1
-tensorflow==2.1.0
+tensorflow==2.5.0
 tensorflow-datasets==2.1.0
 tensorflow-estimator==2.1.0
 tensorflow-metadata==0.21.1
