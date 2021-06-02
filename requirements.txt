@@ -204,7 +204,7 @@ tornado==6.0.3
 tqdm==4.43.0
 traitlets==4.3.3
 tweepy==3.8.0
-urllib3==1.25.8
+urllib3==1.26.5
 waitress==1.4.3
 wandb==0.8.33
 wasabi==0.6.0
