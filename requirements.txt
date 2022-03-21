@@ -205,7 +205,7 @@ tqdm==4.43.0
 traitlets==4.3.3
 tweepy==3.8.0
 urllib3==1.25.8
-waitress==1.4.3
+waitress==2.1.1
 wandb==0.8.33
 wasabi==0.6.0
 watchdog==0.10.2
